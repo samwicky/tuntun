@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>회원가입 : 회원가입/로그인 : Baby League</title>
+	
+	<!-- SEO meta tag -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="date" content="">
+	<meta name="sitecode" content="">
+	<!-- // SEO meta tag -->
+
+	<!-- Open Graph -->
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+	<meta property="og:type" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:locale" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:country-name" content="" >
+	<!-- // Open Graph -->
+
+	<link rel="stylesheet" href="../css/libs.min.css">
+	<link rel="stylesheet" href="../css/contents.css">
+	<!--<link rel="stylesheet" href="/css/contents.min.css">-->
+</head>
+<body>
+<!-- Skip Navigation -->
+<ul class="skip">
+<li><a href="#header" onclick="document.getElementById('header').tabIndex=-1;document.getElementById('header').focus();return false;">Skip to navigation</a></li>
+<li><a href="#content" onclick="document.getElementById('content').tabIndex=-1;document.getElementById('content').focus();return false">Skip to content</a></li>
+</ul>
+<!-- // Skip Navigation -->
+
+	<div class="wrap no_header">
+		<!--[D] HEADER -->
+
+
+		<!--//[D] HEADER -->
+
+		<!-- [D] CONTAINER -->
+		<main id="container">
+			<!-- Content -->
+			<div id="content">
+				<div class="inner">
+					<section id="signup_sec" class="sec_v4">
+						<h1><a href="#landing" class="large_logo"><span class="blind">Baby League</span></a></h1>
+						<h2 class="blind">회원가입</h2>
+						<form method="post" id="signup_fm" class="centered_fm">
+							<div class="user_agr_container">
+								<div class="clearfix">
+									<span class="deco16"></span>
+									<div class="chb_grp fr">
+										<input type="checkbox" id="accept_all" class="deft_chb chb_v2" name="acceptAll" value="true">
+										<label for="accept_all">하단내용에 모두 동의합니다.</label>
+									</div>
+								</div>
+								<ul class="list_agreement">
+									<li class="clearfix">
+										<div class="chb_grp">
+											<input type="checkbox" id="accept_toc" class="deft_chb chb_v2" name="acceptToc" value="true">
+											<label for="accept_toc"><a href="#none">이용약관</a>에 동의합니다.</label>
+										</div>
+									</li>
+									<li class="clearfix">
+										<div class="chb_grp">
+											<input type="checkbox" id="accept_pp" class="deft_chb chb_v2" checked name="acceptToc" value="true">
+											<label for="accept_pp"><a href="#none">개인정보 취급방침</a>에 동의합니다.</label>
+										</div>
+									</li>
+									<li class="clearfix">
+										<div class="chb_grp">
+											<input type="checkbox" id="accept_ppc" class="deft_chb chb_v2" name="acceptToc" value="true">
+											<label for="accept_ppc"><a href="#none">개인정보 처리 위탁</a>에 동의합니다.</label>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="fm_part">
+								<h3 class="fm_part_tit">회원정보 입력</h3>
+								<!-- [D] 입력 에러 발생 시 inp_grp에 has_error 클래스 추가. span.field_error를 만들고 알맞는 텍스트 삽입 -->
+								<div class="inp_grp has_error">
+									<label for="user_id" class="blind">아이디</label>
+									<input type="text" id="user_id" class="deft_inp" name="userPass" placeholder="아이디">
+									<span class="field_error">사용할 수 없는 아이디입니다.</span>
+								</div>
+								<div class="inp_grp has_error">
+									<label for="user_pass" class="blind">비밀번호</label>
+									<input type="password" id="user_pass" class="deft_inp" name="userPass" placeholder="비밀번호">
+									<button type="button" class="toggle_pass"><span class="hide"></span></button>
+									<span class="field_error">영문, 숫자, 특수문자 (8자 이상)</span>
+								</div>
+								<div class="inp_grp has_error">
+									<label for="user_pass_cfm" class="blind">비밀번호 확인</label>
+									<input type="password" id="user_pass_cfm" class="deft_inp" name="userPassCfm" placeholder="비밀번호 확인">
+									<button type="button" class="toggle_pass"><span class="hide"></span></button>
+									<span class="field_error">비밀번호가 일치하지 않습니다.</span>
+								</div>
+							</div>
+							<div class="fm_part">
+								<h3 class="fm_part_tit">자녀정보 입력</h3>
+								<div class="inp_grp">
+									<label for="child_name" class="blind">자녀 이름</label>
+									<input type="text" id="child_name" class="deft_inp" name="childName" placeholder="자녀 이름">
+								</div>
+								<div class="inline_inp_grp">
+									<div class="inp_grp inp_grp_c3">
+										<label for="birth_year" class="blind">생년(4자)</label>
+										<input type="number" id="birth_year" class="deft_inp" name="childBYear" min="1000" max="9999" placeholder="생년(4자)">
+									</div>
+									<div class="inp_grp inp_grp_c3 custom_select">
+										<button type="button">월</button>
+										<ul class="val_lst sb-container">
+											<li><button type="button">1</button></li>
+											<li><button type="button">2</button></li>
+											<li><button type="button">3</button></li>
+											<li><button type="button">4</button></li>
+											<li><button type="button">5</button></li>
+											<li><button type="button">6</button></li>
+											<li><button type="button">7</button></li>
+											<li><button type="button">8</button></li>
+											<li><button type="button">9</button></li>
+											<li><button type="button">10</button></li>
+											<li><button type="button">11</button></li>
+											<li><button type="button">12</button></li>
+										</ul>
+										<input type="hidden" name="childBMonth">
+									</div>
+									<div class="inp_grp inp_grp_c3">
+										<label for="birth_date" class="blind">일</label>
+										<input type="number" id="birth_date" class="deft_inp" name="childBDate" min="1" max="31" placeholder="일">
+									</div>
+								</div>
+							</div>
+							<div class="fm_part">
+								<h3 class="fm_part_tit">학부모 연락처</h3>
+								<div class="inline_inp_grp">
+									<div class="inp_grp inp_grp_c3 custom_select">
+										<button type="button">010</button>
+										<ul class="val_lst">
+											<li><button type="button">010</button></li>
+											<li><button type="button">016</button></li>
+											<li><button type="button">017</button></li>
+											<li><button type="button">018</button></li>
+											<li><button type="button">019</button></li>
+										</ul>
+										<input type="hidden" name="telCode">
+									</div>
+									<div class="inp_grp inp_grp_c2">
+										<label for="parent_no" class="blind">- 없이 입력해주세요.</label>
+										<input type="tel" id="parent_no" class="deft_inp" name="parentNo" placeholder="- 없이 입력해주세요.">
+									</div>
+								</div>
+								<div class="clearfix">
+									<div class="chb_grp fr">
+										<input type="checkbox" id="accept_sms" class="deft_chb" name="acceptSms" value="true">
+										<label for="accept_sms">SMS 수신 동의(선택)</label>
+									</div>
+								</div>
+							</div>
+							<div class="fm_part fm_last_part">
+								<h3 class="fm_part_tit">이메일 인증</h3>
+								<div class="inline_inp_grp">
+									<!-- [D] 입력 에러 발생 시 inp_grp에 has_error 클래스 추가. span.field_error를 만들고 알맞는 텍스트 삽입 -->
+									<div class="inp_grp inp_grp_c2 has_error">
+										<label for="auth_email" class="blind">인증받을 이메일을 입력해주세요.</label>
+										<input type="email" id="auth_email" class="deft_inp" name="parentNo" placeholder="인증받을 이메일을 입력해주세요.">
+										<span class="field_error">이미 가입된 이메일입니다.</span>
+									</div>
+									<div class="inp_grp inp_grp_c3">
+										<button type="button" class="inp_grp_c3 send_mail_btn">인증</button>
+									</div>
+								</div>
+								<div class="chb_grp">
+									<input type="checkbox" id="mail_recv" class="deft_chb" name="mailRecv" value="true">
+									<label for="mail_recv">메일링 수신 동의(선택)</label>
+								</div>
+							</div>
+							<a href="#none" class="deft_btn fm_btn signup_btn">다음</a>
+						</form>
+						<span class="deco7"></span>
+						<span class="deco14"></span>
+						<span class="deco15"></span>
+						<span class="deco11"></span>
+						<span class="deco12"></span>
+						<span class="deco13"></span>
+						<span class="deco6"></span>
+					</section>
+				</div>
+			</div>
+			<!-- //Content -->
+		</main>
+		<!-- // [D] CONTAINER -->
+
+		<!--[D] FOOTER -->
+
+<footer id="footer" class="ft ft_type2">
+    <div class="inner">
+        <ul class="ft_nav">
+            <li class="ft_nav_item"><a href="#" class="ft_nav_link">이용약관</a></li>
+            <li class="ft_nav_item"><a href="#" class="ft_nav_link">개인정보취급방침</a></li>
+        </ul>
+        <p class="ft_copyright">Copyright &copy; (주)튼튼영어, All rights reserved.</p>
+    </div>
+</footer>
+
+		<!--// [D] FOOTER -->
+	</div>
+
+	<!-- Javascript -->
+	<script defer src="../js/libs/vendor.min.js"></script>
+	<script defer src="../js/libs/scrollbar.js"></script>
+	<script defer src="../js/libs/slick.min.js"></script>
+	<script defer src="../js/apps/common.js"></script>
+	<script defer src="../js/apps/program.js"></script>
+	<script defer src="../js/apps/main.js"></script>
+	<script defer src="../js/libs/scrollbar.js"></script>
+	<script defer src="../js/apps/join.js"></script>
+	<!-- <script src="/js/project-name.min.js"></script> -->
+	<!-- // Javascript -->
+</body>
+</html>
