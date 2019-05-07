@@ -1,0 +1,62 @@
+@@include('./include/head.html',{"title": "로그인 &gt; 아이디 찾기 : 회원가입/로그인 : Baby League"})
+<body>
+@@include('./include/skipnavigation.html')
+
+	<div class="wrap">
+		<!--[D] HEADER -->
+@@include('./include/header.html',{"type": "01"})
+		<!--//[D] HEADER -->
+
+		<!-- [D] CONTENTS -->
+		<main id="container">
+            <!-- Content -->
+            <div id="content">
+                <div class="inner">
+                    <section id="fid_sec" class="sec_v3">
+                        <div class="sec_header clearfix">
+                            <h2 class="sec_tit fl">아이디 찾기</h2>
+                            <ul class="breadcrumb fr clearfix">
+                                <li><a href="#none">HOME</a></li>
+                                <li><a href="#none">로그인</a></li>
+                                <li>아이디 찾기</li>
+                            </ul>
+                        </div>
+                        <div class="sec_cont">
+                            <h3 class="sec_headline">Find ID</h3>
+                            <p>가입하신 정보로 ‘아이디 찾기’가 가능합니다.<br>입력하신 정보는 ‘아이디 찾기’ 이외의 목적으로 사용하지 않습니다.</p>
+                            <form method="post" id="fid_fm" class="centered_fm">
+                                <div class="inp_grp">
+                                    <label for="user_name" class="blind">이름</label>
+                                    <input type="text" id="user_name" class="deft_inp" name="userName" placeholder="이름">
+                                </div>
+                                <div class="inp_grp">
+                                    <label for="user_email" class="blind">이메일</label>
+                                    <input type="email" id="user_email" class="deft_inp" name="userPass" placeholder="이메일">
+                                </div>
+                                <a href="#none" class="deft_btn fm_btn fm_btn_v2">아이디 찾기</a>
+                                <div class="link_lst_container">
+                                    <ul class="link_lst clearfix">
+                                        <li><a href="#none">회원가입</a></li>
+                                        <li><a href="#none">비밀번호 찾기</a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
+                        <span class="deco12 deco12_v2"></span>
+                    </section>
+                </div>
+            </div>
+            <!-- //Content -->
+        </main>
+		<!-- // [D] CONTENTS -->
+
+		<!--[D] FOOTER -->
+@@include('./include/footer.html',{"type": "01"})
+		<!--// [D] FOOTER -->
+	</div>
+
+
+
+@@include('./include/script.html')
+</body>
+</html>

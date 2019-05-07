@@ -1,0 +1,82 @@
+.single_slide {
+    position: relative;
+    margin-top: 49px;
+    border: solid 1px #8fa8e8;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    .prev {
+        display: block;
+        @include sp-normal('prev')
+    }
+    .next {
+        display: block;
+        @include sp-normal('next')
+    }
+    .slick-list {
+        width: 514px;
+        height: 514px;
+        margin: auto;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        .slick-slide {
+            width: 514px;
+            height: 514px;
+            position: relative;
+            > div {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    button.slick-arrow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    button.sl_thumb_prev {
+        margin-left: -289px;
+    }
+    button.sl_thumb_next {
+        margin-left: 289px;
+    }
+}
+.slide_wrapper {
+    position: relative;
+}
+.slide_page {
+    display: block;
+    position: absolute;
+    bottom: 57px;
+    left: 50%;
+    width: 60px;
+    height: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #0b318f;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1.7px;
+    text-align: center;
+    color: #ffffff;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}

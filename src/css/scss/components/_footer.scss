@@ -1,0 +1,179 @@
+.ft {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 42px 0;
+    background: $blue-lighter;
+    color: $blue-darker;
+    .inner {
+        position: relative;
+    }
+    &_logo {
+        display: inline-block;
+        @include sp-normal('logo_ft')
+    }
+    &_spot {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    &_phone {
+        display: block;
+        margin-top: 16px;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 27px;
+    }
+    &_bsn_hours {
+        margin-top: 9px;
+        font-size: 17px;
+        line-height: 18px;
+    }
+    &_faq_btn {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 6px 13px;
+        border-radius: 20px;
+        background-color: #e1e4ed;
+        color: $blue-darker;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+    &_ct {
+        padding: 16px 0 18px 195px;
+    }
+    &_nav {
+        margin: 0 -5px;
+        &_item {
+            float: left;
+            position: relative;
+            margin-left: 23px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &:before {
+                display: inline-block;
+                position: absolute;
+                left: -12px;
+                width: 1px;
+                height: 22px;
+                background-color: #869CCF;
+                content: '';
+            }
+            &:first-child:before {
+                display: none;
+            }
+        }
+        &_link {
+            padding: 5px;
+            color: $blue-darker;
+            font-size: 22px;
+            font-weight: 700;
+        }
+    }
+    &_info {
+        margin-top: 46px;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    &_copyright {
+        margin-top: 15px;
+        font-size: 17px;
+    }
+    &_follow {
+        display: inline-block;
+        position: absolute;
+        top: -9px;
+        right: 0;
+        &_item {
+            float: left;
+            margin-left: 10px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+        &_link {
+            display: inline-block;
+        }
+    }
+    &_familysite {
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+        border-bottom: 1px solid $blue;
+        &:before {
+            display: block;
+            height: 20px;
+            content: '';
+        }
+        &:hover &_lst {
+            display: block;
+        }
+        &_btn {
+            padding: 7px 67px 7px 11px;
+            font-size: 19px;
+        }
+        &_ico {
+            position: absolute;
+            right: 9px;
+            bottom: 14px;
+            display: inline-block;
+        }
+        &_lst {
+            display: none;
+            position: absolute;
+            right: 0;
+            bottom: 38px;
+            left: 0;
+            padding: 7px 12px;
+            border: 1px solid #e5e9f5;
+            background: $white;
+        }
+        &_item {
+            margin-top: 7px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        &_link {
+            display: block;
+            padding: 5px 0;
+            color: $blue-darker;
+            font-size: 16px;
+            font-weight: 300;
+            &:hover {
+                font-weight: 700;
+            }
+        }
+    }
+}
+.ft_type2 {
+    padding: 26px 0 62px;
+    text-align: center;
+    .ft_nav {
+        display: inline-block;
+        &_item {
+            margin-left: 15px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &:before {
+                left: -7px;
+                height: 18px;
+            }
+        }
+        &_link {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    .ft_copyright {
+        margin-top: 6px;
+        font-size: 12px;
+    }
+}

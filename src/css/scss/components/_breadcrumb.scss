@@ -1,0 +1,24 @@
+ul.breadcrumb {
+    li {
+        float: left;
+        margin-right: 6px;
+        color: #0b318f;
+        a {
+            color: #0b318f;
+        }
+        &:after {
+            display: inline-block;
+            margin-left: 6px;
+            content: '>';
+        }
+        &:last-of-type:after {
+            display: none;
+        }
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+.breadcrumb_container {
+    padding: 36px 0 17px;
+}

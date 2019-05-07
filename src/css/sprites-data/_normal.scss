@@ -1,0 +1,864 @@
+$normal-vars: (
+	'animal_blue': (
+		offset-x: -481px,
+		offset-y: -924px,
+		width: 118px,
+		height: 93px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'animal_green': (
+		offset-x: -603px,
+		offset-y: -924px,
+		width: 118px,
+		height: 93px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'bird': (
+		offset-x: -1134px,
+		offset-y: -1079px,
+		width: 113px,
+		height: 110px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'chicken': (
+		offset-x: -725px,
+		offset-y: -924px,
+		width: 114px,
+		height: 87px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'chicken02': (
+		offset-x: -589px,
+		offset-y: -346px,
+		width: 145px,
+		height: 185px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'clock': (
+		offset-x: -1362px,
+		offset-y: -490px,
+		width: 81px,
+		height: 81px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco16': (
+		offset-x: -843px,
+		offset-y: -924px,
+		width: 114px,
+		height: 87px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco17': (
+		offset-x: -779px,
+		offset-y: 0px,
+		width: 227px,
+		height: 329px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco18': (
+		offset-x: 0px,
+		offset-y: -924px,
+		width: 155px,
+		height: 151px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco19': (
+		offset-x: -961px,
+		offset-y: -924px,
+		width: 127px,
+		height: 76px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco2': (
+		offset-x: 0px,
+		offset-y: -1079px,
+		width: 120px,
+		height: 163px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco20': (
+		offset-x: -779px,
+		offset-y: -536px,
+		width: 124px,
+		height: 78px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco21': (
+		offset-x: -779px,
+		offset-y: -333px,
+		width: 171px,
+		height: 199px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco22': (
+		offset-x: 0px,
+		offset-y: 0px,
+		width: 288px,
+		height: 342px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco23': (
+		offset-x: -292px,
+		offset-y: -197px,
+		width: 149px,
+		height: 140px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco24': (
+		offset-x: -1265px,
+		offset-y: -156px,
+		width: 80px,
+		height: 163px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco25': (
+		offset-x: 0px,
+		offset-y: -346px,
+		width: 299px,
+		height: 270px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco26': (
+		offset-x: -445px,
+		offset-y: -197px,
+		width: 160px,
+		height: 124px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco27': (
+		offset-x: -124px,
+		offset-y: -1079px,
+		width: 108px,
+		height: 157px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco3': (
+		offset-x: -292px,
+		offset-y: 0px,
+		width: 483px,
+		height: 193px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco4': (
+		offset-x: -1265px,
+		offset-y: -461px,
+		width: 64px,
+		height: 63px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'deco5': (
+		offset-x: -1362px,
+		offset-y: -216px,
+		width: 58px,
+		height: 122px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'desc-01': (
+		offset-x: -230px,
+		offset-y: -1246px,
+		width: 111px,
+		height: 111px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'desc-02': (
+		offset-x: 0px,
+		offset-y: -1246px,
+		width: 111px,
+		height: 111px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'desc-03': (
+		offset-x: -115px,
+		offset-y: -1246px,
+		width: 111px,
+		height: 111px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'down': (
+		offset-x: -1440px,
+		offset-y: -467px,
+		width: 16px,
+		height: 10px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'exp_cd': (
+		offset-x: -1010px,
+		offset-y: 0px,
+		width: 251px,
+		height: 213px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'exp_cd_inactive': (
+		offset-x: -1010px,
+		offset-y: -217px,
+		width: 251px,
+		height: 213px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'hide': (
+		offset-x: -1414px,
+		offset-y: -439px,
+		width: 24px,
+		height: 24px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_app_berry': (
+		offset-x: -367px,
+		offset-y: -1079px,
+		width: 127px,
+		height: 127px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_app_danton': (
+		offset-x: -236px,
+		offset-y: -1079px,
+		width: 127px,
+		height: 127px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_app_dantonlib': (
+		offset-x: -760px,
+		offset-y: -1079px,
+		width: 127px,
+		height: 127px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_app_store': (
+		offset-x: -589px,
+		offset-y: -535px,
+		width: 139px,
+		height: 34px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_ar_blue': (
+		offset-x: -1447px,
+		offset-y: -530px,
+		width: 12px,
+		height: 7px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_ar_blue_m': (
+		offset-x: -1442px,
+		offset-y: -439px,
+		width: 17px,
+		height: 10px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_ar_thumbl': (
+		offset-x: -1447px,
+		offset-y: -216px,
+		width: 10px,
+		height: 24px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_ar_thumbl_l': (
+		offset-x: -1414px,
+		offset-y: -393px,
+		width: 19px,
+		height: 42px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_ar_thumbr': (
+		offset-x: -1447px,
+		offset-y: -262px,
+		width: 10px,
+		height: 24px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_ar_thumbr_l': (
+		offset-x: -1424px,
+		offset-y: -216px,
+		width: 19px,
+		height: 42px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_blog': (
+		offset-x: -1265px,
+		offset-y: -528px,
+		width: 62px,
+		height: 62px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_cube': (
+		offset-x: -1010px,
+		offset-y: -651px,
+		width: 213px,
+		height: 211px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_cube_app01': (
+		offset-x: -498px,
+		offset-y: -1079px,
+		width: 127px,
+		height: 127px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_cube_app02': (
+		offset-x: -891px,
+		offset-y: -1079px,
+		width: 127px,
+		height: 126px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_cube_app03': (
+		offset-x: -629px,
+		offset-y: -1079px,
+		width: 127px,
+		height: 127px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_da': (
+		offset-x: -1362px,
+		offset-y: -575px,
+		width: 87px,
+		height: 72px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_gg_play': (
+		offset-x: -303px,
+		offset-y: -578px,
+		width: 144px,
+		height: 31px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_green': (
+		offset-x: -1362px,
+		offset-y: -967px,
+		width: 76px,
+		height: 68px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_green_m': (
+		offset-x: -459px,
+		offset-y: -1246px,
+		width: 114px,
+		height: 94px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_gyuri': (
+		offset-x: -1362px,
+		offset-y: -1039px,
+		width: 90px,
+		height: 56px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_gyuri_m': (
+		offset-x: -609px,
+		offset-y: -197px,
+		width: 146px,
+		height: 90px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_insta': (
+		offset-x: -1265px,
+		offset-y: -594px,
+		width: 62px,
+		height: 62px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_orange': (
+		offset-x: -1362px,
+		offset-y: -1099px,
+		width: 84px,
+		height: 60px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_orange_m': (
+		offset-x: -345px,
+		offset-y: -924px,
+		width: 132px,
+		height: 94px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_pause': (
+		offset-x: -1447px,
+		offset-y: -290px,
+		width: 12px,
+		height: 13px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_play': (
+		offset-x: -1447px,
+		offset-y: -244px,
+		width: 12px,
+		height: 14px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_qplay': (
+		offset-x: -1362px,
+		offset-y: -1163px,
+		width: 72px,
+		height: 70px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_qplay_m': (
+		offset-x: -345px,
+		offset-y: -1246px,
+		width: 110px,
+		height: 108px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_sa': (
+		offset-x: -1362px,
+		offset-y: -895px,
+		width: 82px,
+		height: 68px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_sada': (
+		offset-x: -1362px,
+		offset-y: -651px,
+		width: 72px,
+		height: 84px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_sada_m': (
+		offset-x: -1362px,
+		offset-y: 0px,
+		width: 98px,
+		height: 112px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_search': (
+		offset-x: -1414px,
+		offset-y: -342px,
+		width: 46px,
+		height: 47px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_sing_along': (
+		offset-x: -1362px,
+		offset-y: -823px,
+		width: 82px,
+		height: 68px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_sl_off_s': (
+		offset-x: -1447px,
+		offset-y: -510px,
+		width: 10px,
+		height: 16px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_sl_s': (
+		offset-x: -1447px,
+		offset-y: -490px,
+		width: 10px,
+		height: 16px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_slleft_l': (
+		offset-x: -1265px,
+		offset-y: -392px,
+		width: 66px,
+		height: 65px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_slleft_m': (
+		offset-x: -1438px,
+		offset-y: -689px,
+		width: 16px,
+		height: 34px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_slright_l': (
+		offset-x: -1265px,
+		offset-y: -323px,
+		width: 66px,
+		height: 65px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_slright_m': (
+		offset-x: -1438px,
+		offset-y: -651px,
+		width: 16px,
+		height: 34px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_video_play': (
+		offset-x: -1362px,
+		offset-y: -116px,
+		width: 96px,
+		height: 96px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_wplay': (
+		offset-x: -1362px,
+		offset-y: -739px,
+		width: 74px,
+		height: 80px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'ico_wplay_m': (
+		offset-x: -1022px,
+		offset-y: -1079px,
+		width: 108px,
+		height: 118px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'large_logo': (
+		offset-x: -159px,
+		offset-y: -924px,
+		width: 182px,
+		height: 94px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'line_slash': (
+		offset-x: -1440px,
+		offset-y: -739px,
+		width: 17px,
+		height: 31px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'line_slash_l': (
+		offset-x: -1362px,
+		offset-y: -342px,
+		width: 48px,
+		height: 144px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'lion': (
+		offset-x: 0px,
+		offset-y: -620px,
+		width: 196px,
+		height: 300px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'logo': (
+		offset-x: -577px,
+		offset-y: -1246px,
+		width: 130px,
+		height: 68px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'logo_ft': (
+		offset-x: -1092px,
+		offset-y: -924px,
+		width: 132px,
+		height: 68px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'logo_oneline': (
+		offset-x: -1010px,
+		offset-y: -866px,
+		width: 243px,
+		height: 44px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'logo_white2': (
+		offset-x: -462px,
+		offset-y: -837px,
+		width: 215px,
+		height: 41px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'mb_exp_pack': (
+		offset-x: -200px,
+		offset-y: -620px,
+		width: 251px,
+		height: 213px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'mb_exp_pack_inactive': (
+		offset-x: -710px,
+		offset-y: -620px,
+		width: 251px,
+		height: 213px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'next': (
+		offset-x: -1437px,
+		offset-y: -393px,
+		width: 19px,
+		height: 42px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'pre_exp_pack': (
+		offset-x: -1010px,
+		offset-y: -434px,
+		width: 251px,
+		height: 213px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'pre_exp_pack_alt': (
+		offset-x: -303px,
+		offset-y: -346px,
+		width: 282px,
+		height: 228px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'pre_exp_pack_inactive': (
+		offset-x: -455px,
+		offset-y: -620px,
+		width: 251px,
+		height: 213px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'prev': (
+		offset-x: -1424px,
+		offset-y: -262px,
+		width: 19px,
+		height: 42px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'rabbit': (
+		offset-x: -1265px,
+		offset-y: 0px,
+		width: 93px,
+		height: 152px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'search': (
+		offset-x: -1424px,
+		offset-y: -308px,
+		width: 26px,
+		height: 26px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'show': (
+		offset-x: -1414px,
+		offset-y: -467px,
+		width: 22px,
+		height: 15px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'txt_banner01': (
+		offset-x: -200px,
+		offset-y: -837px,
+		width: 258px,
+		height: 60px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'up': (
+		offset-x: -1442px,
+		offset-y: -453px,
+		width: 16px,
+		height: 10px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+	'yellow_caret_r': (
+		offset-x: -1362px,
+		offset-y: -1237px,
+		width: 49px,
+		height: 89px,
+		total-width: 1460px,
+		total-height: 1357px,
+		imageSrc: '../img/sprites/normal.png'
+	),
+);
+$normal-origin: (
+  total-width: 1460px,
+  total-height: 1357px,
+  imageSrc: '../img/sprites/normal.png'
+);
+
+@mixin sprite-size($image) {
+	background-size: map-get($image, 'total-width') map-get($image, 'total-height');
+}
+
+@mixin sprite-image($image) {
+	$image-path: map-get($image, 'imageSrc');
+	background-image: url($image-path);
+}
+
+@mixin sprite-image-retina($image) {
+	$image-path: map-get($image, 'imageSrc');
+	$image-path-retina: str-slice($image-path, 1, str-index($image-path, '.png') - 1) + '@2x.png';
+	background-image: url($image-path-retina);
+}
+
+@mixin set-normal {
+  @include sprite-size($normal-origin);
+  @include sprite-image($normal-origin);
+}
+
+@mixin sp-normal($image, $size: true) {
+  @include set-normal;
+	background-position: map-get(map-get($normal-vars, $image), 'offset-x') map-get(map-get($normal-vars, $image), 'offset-y');
+	@if $size {
+		width: map-get(map-get($normal-vars, $image), 'width');
+		height: map-get(map-get($normal-vars, $image), 'height');
+	}
+}

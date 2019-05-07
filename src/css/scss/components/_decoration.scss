@@ -1,0 +1,136 @@
+.deco7 {
+    position: absolute;
+    background: url("../img/deco7.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco8 {
+    position: absolute;
+    background: url("../img/deco8.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco9 {
+    position: absolute;
+    background: url("../img/deco9.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco10 {
+    position: absolute;
+    background: url("../img/deco10.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco11 {
+    position: absolute;
+    background: url("../img/deco11.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco12 {
+    position: absolute;
+    background: url("../img/deco12.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco13 {
+    position: absolute;
+    background: url("../img/deco13.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco14 {
+    position: absolute;
+    background: url("../img/deco14.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco15 {
+    position: absolute;
+    background: url("../img/deco15.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco6 {
+    position: absolute;
+    background: url("../img/deco4.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco5 {
+    position: absolute;
+    @include sp-normal('deco5');
+}
+
+.deco1 {
+    position: absolute;
+    background: url("../img/deco1.png") no-repeat center;
+    background-size: 100%;
+}
+
+.deco2 {
+    @include sp-normal('deco2');
+}
+
+.deco3 {
+    @include sp-normal('deco3');
+}
+
+.deco4 {
+    position: absolute;
+    @include sp-normal('deco4');
+}
+
+.show {
+    @include sp-normal('show');
+}
+
+.hide {
+    @include sp-normal('hide');
+}
+
+.deco17 {
+     @include sp-normal('deco17');
+ }
+
+.deco18 {
+    @include sp-normal('deco18');
+}
+
+.deco20 {
+    @include sp-normal('deco20');
+}
+
+.deco21 {
+    @include sp-normal('deco21');
+}
+
+.deco22 {
+    @include sp-normal('deco22');
+}
+
+.deco23 {
+    @include sp-normal('deco23');
+}
+
+.deco24 {
+    @include sp-normal('deco24');
+}
+
+.deco25 {
+    @include sp-normal('deco25');
+}
+
+.deco26 {
+    @include sp-normal('deco26');
+}
+
+.deco27 {
+    @include sp-normal('deco27');
+}
+
+.deco2_bg {
+    background: url("../img/deco2.png") no-repeat center;
+    background-size: 100%;
+}

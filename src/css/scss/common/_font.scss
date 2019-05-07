@@ -1,0 +1,31 @@
+/* 
+- 필요에 따라 선택적 활용 사용 - CSS 최상단 선언
+- 모바일/IE8 이하 웹폰트 미지원 일 경우 .eot 선언 제거 및 src:local(*); 추가
+- 미사용시 삭제
+*/
+
+/* Nanum Square Round */
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 300;
+  src: local('../font/NanumSquareRoundL'), url('../font/NanumSquareRoundL.eot'), url('../font/NanumSquareRoundL.eot?#iefix') format('embedded-opentype'), url('../font/NanumSquareRoundL.woff2') format('woff2'), url('../font/NanumSquareRoundL.woff') format('woff'), url('../font/NanumSquareRoundL.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 400;
+  src: local('../font/NanumSquareRoundR'), url('../font/NanumSquareRoundR.eot'), url('../font/NanumSquareRoundR.eot?#iefix') format('embedded-opentype'), url('../font/NanumSquareRoundR.woff2') format('woff2'), url('../font/NanumSquareRoundR.woff') format('woff'), url('../font/NanumSquareRoundR.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 700;
+  src: local('../font/NanumSquareRoundB'), url('../font/NanumSquareRoundB.eot'), url('../font/NanumSquareRoundB.eot?#iefix') format('embedded-opentype'), url('../font/NanumSquareRoundB.woff2') format('woff2'), url('../font/NanumSquareRoundB.woff') format('woff'), url('../font/NanumSquareRoundB.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 800;
+  src: local('../font/NanumSquareRoundEB'), url('../font/NanumSquareRoundEB.eot'), url('../font/NanumSquareRoundEB.eot?#iefix') format('embedded-opentype'), url('../font/NanumSquareRoundEB.woff2') format('woff2'), url('../font/NanumSquareRoundEB.woff') format('woff'), url('../font/NanumSquareRoundEB.ttf') format('truetype');
+}

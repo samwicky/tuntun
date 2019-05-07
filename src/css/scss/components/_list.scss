@@ -1,0 +1,95 @@
+.or_lst {
+    li {
+        position: relative;
+        padding: 36px 0 46px;
+        &:before {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 800px;
+            height: 1px;
+            background: #d8e3ff;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            content: '';
+        }
+        &:after {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 57px;
+            height: 57px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            background: #ffe600;
+            font-size: 20px;
+            font-weight: 800;
+            color: #ffffff;
+            text-align: center;
+            line-height: 57px;
+            -webkit-transform: translate(-50%, 50%);
+            -moz-transform: translate(-50%, 50%);
+            -ms-transform: translate(-50%, 50%);
+            -o-transform: translate(-50%, 50%);
+            transform: translate(-50%, 50%);
+            content: 'OR';
+        }
+        &:last-child:before, &:last-child:after {
+            display: none;
+        }
+    }
+}
+.img_cont_lst {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    li {
+        width: 240px;
+        margin-left: calc((100% - (240px * 4)) / 3); // 100% - (width of item * number of item per row) / 3 between-space = space between each item
+        margin-bottom: 36px;
+        &:first-child {
+            margin-left: 0;
+        }
+        img {
+            display: block;
+            margin-bottom: 15px;
+        }
+        figcaption {
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 24px;
+            color: #0b318f;
+            text-align: center;
+        }
+        &:first-child + li + li + li + li {
+            margin-left: 0;
+        }
+    }
+}
+.custom_ol {
+    counter-reset: item;
+    li {
+        &:before {
+            display: inline-block;
+            width: 42px;
+            height: 42px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            background: #002c9a;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 42px;
+            color: #ffffff;
+            text-align: center;
+            counter-increment: item;
+            content: counter(item, decimal-leading-zero);
+        }
+    }
+}

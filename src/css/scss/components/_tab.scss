@@ -1,0 +1,134 @@
+.tab_head {
+    position: relative;
+    display: inline-block;
+
+    &_wrap {
+        text-align: center;
+
+        .tab {
+            margin-top: 36px;
+        }
+
+        .tab_item {
+            display: inline-block;
+            margin-left: 13px;
+            width: 276px;
+            border-radius: 30px;
+            border: 1px solid #8fa8e8;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &.on {
+                border-color: #eceef5;
+                background-color: #eceef5;
+            }
+        }
+
+        .tab_link {
+            display: block;
+            padding: 9px 0 5px;
+            color: $blue;
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .tab_item.on {
+            .tab_link {
+                font-weight: 800;
+            }
+        }
+    }
+
+    &_img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    strong {
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 7px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -0.6px;
+    }
+
+    &_structure strong {
+        min-width: 276px;
+        padding-left: 41px;
+        padding-right: 41px;
+        background: $blue;
+        color: $white;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    &_other {
+        padding-top: 83px;
+    }
+
+    &_other strong {
+        width: 380px;
+        background: $yellow;
+        color: $blue-darker;
+        font-weight: 800;
+    }
+
+    &_structure {
+        padding-top: 76px;
+    }
+
+    &_structure &_img {
+        display: block;
+    }
+
+    &_other &_img {
+        display: block;
+    }
+}
+
+.tab_dt {
+    &_wrap {
+        margin-top: 65px;
+        text-align: center;
+    }
+
+    &_tit {
+        padding-top: 25px;
+        border-bottom: 1px solid #d8e3ff;
+        text-align: left;
+        strong {
+            display: block;
+            position: relative;
+            font-size: 16px;
+            &:before {
+                display: inline-block;
+                position: absolute;
+                top: -25px;
+                left: 0;
+                width: 45px;
+                height: 5px;
+                border-radius: 5px;
+                background: #002c9a;
+                content: '';
+            }
+        }
+        span {
+            margin-right: 30px;
+            font-size: 27px;
+            font-weight: 800;
+            vertical-align: middle;
+        }
+    }
+    &_elem {
+        margin-top: 70px;
+    }
+}

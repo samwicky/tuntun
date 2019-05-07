@@ -1,0 +1,93 @@
+@@include('./include/head.html',{"title": "푸터/메뉴 : 고객센터 : Baby League"})
+<body>
+@@include('./include/skipnavigation.html')
+
+<div class="wrap">
+    <!--[D] HEADER -->
+    @@include('./include/header.html',{"type": "01"})
+    <!--//[D] HEADER -->
+
+    <!-- [D] CONTAINER -->
+    <main id="container">
+        <!-- Content -->
+        <div id="content">
+            <div class="inner">
+                <section id="sc_sec" class="sec_v1">
+                    <div class="sec_header no_border clearfix">
+                        <h2 class="sec_tit sec_tit_v1 fl">고객센터</h2>
+                        <ul class="breadcrumb fr clearfix">
+                            <li><a href="#none">HOME</a></li>
+                            <li>고객센터</li>
+                        </ul>
+                    </div>
+                    <div class="sec_cont">
+                        <div class="reg_service_guide">
+                            <ul>
+                                <li><span>회원인 경우 : 답변은 <b>마이페이지 &gt; 1:1문의내역</b>에서 확인 가능합니다.&emsp;<a href="#none">로그인 하기</a></span></li>
+                                <li><span>비회원인 경우 : 비회원으로 접수하시는 경우 메일 회신을 통해서만 확인이 가능합니다.</span></li>
+                            </ul>
+                            <span class="deco11"></span>
+                            <span class="deco12"></span>
+                            <span class="deco13"></span>
+                            <span class="deco16"></span>
+                        </div>
+                    </div>
+                    <form method="post" id="reg_fm">
+                        <label for="edu" class="fm_part_tit">문의구분</label>
+                        <div class="inp_grp">
+                            <input type="text" id="edu" class="deft_inp" name="edu" placeholder="학습">
+                        </div>
+                        <label for="title" class="fm_part_tit">제목</label>
+                        <div class="inp_grp">
+                            <input type="text" id="title" class="deft_inp" name="title" placeholder="20자 이내로 입력해주세요." maxlength="20">
+                        </div>
+                        <label for="cont" class="fm_part_tit">내용</label>
+                        <div class="inp_grp">
+                            <textarea id="cont" class="deft_inp" name="cont"  placeholder="내용을 입력해주세요."></textarea>
+                        </div>
+                        <label for="user_name" class="fm_part_tit">이름</label>
+                        <div class="inp_grp">
+                            <input type="text" id="user_name" class="deft_inp" name="userName" placeholder="이름">
+                        </div>
+                        <label for="phone_no" class="fm_part_tit">연락처</label>
+                        <div class="inline_inp_grp">
+                            <div class="inp_grp inp_grp_c3 custom_select">
+                                <button type="button">010</button>
+                                <ul class="val_lst">
+                                    <li><button type="button">010</button></li>
+                                    <li><button type="button">016</button></li>
+                                    <li><button type="button">017</button></li>
+                                    <li><button type="button">018</button></li>
+                                    <li><button type="button">019</button></li>
+                                </ul>
+                                <input type="hidden" name="telCode">
+                            </div>
+                            <div class="inp_grp inp_grp_c2">
+                                <input type="tel" id="phone_no" class="deft_inp" name="phoneNo" placeholder="- 없이 입력해주세요.">
+                            </div>
+                        </div>
+                        <label for="email" class="fm_part_tit">이메일</label>
+                        <div class="inp_grp">
+                            <input type="text" id="email" class="deft_inp" name="email" placeholder="답변은 이메일로 제공됩니다.">
+                        </div>
+                        <div class="chb_grp">
+                            <input type="checkbox" id="mail_recv" class="deft_chb chb_v2" name="mailRecv" value="true">
+                            <label for="mail_recv">베이비리그 개인정보 수집 및 이용 등에 대한 안내</label>
+                        </div>
+                        <button type="submit" class="deft_btn reg_btn">등록하기</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <!-- //Content -->
+    </main>
+    <!-- // [D] CONTAINER -->
+
+    <!--[D] FOOTER -->
+    @@include('./include/footer.html',{"type": "01"})
+    <!--// [D] FOOTER -->
+</div>
+
+@@include('./include/script.html')
+</body>
+</html>
